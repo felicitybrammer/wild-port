@@ -23,9 +23,9 @@ import {
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px"}}>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col  className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -33,6 +33,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -42,6 +43,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
+        
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
