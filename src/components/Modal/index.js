@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectCards from '../Projects/ProjectCards';
 
 const Modal = (props, { onClose }) => {
 
