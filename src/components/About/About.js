@@ -14,7 +14,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={8}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -22,18 +22,21 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              WHO I <strong className="purple">AM</strong>
+              A little bit <strong className="purple">About </strong>me
             </h1>
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            md={4}
+            style={{ paddingTop: "120px", paddingBottom: "50px", fontStyle: "italic" }}
             className="about-img"
           >
             <img src={aboutImg} alt="about" className="img-fluid" />
+            <p className="purple italic" >Yes, I'm holding a python here. </p>
+            {/* <p>His name is Lou.</p> */}
+           <p className="purple ">I've worked mostly with JavaScript frameworks so far, but I'm always learning. I'm currently developing my skills in Java, to round out my back-end experience.</p>
           </Col>
-          <Row className="blockquote">
+          {/* <Row className="blockquote">
             <Col md={12}>
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>WHAT I <strong className="purple">DO</strong></h1>
             </Col>
@@ -53,12 +56,13 @@ function About() {
               <p>Lifelong learning is my passion and I'm excited to keep growing and developing my skills and
                 knowledge. I thrive in an environment dedicated to teamwork and cooperation.</p>
             </Col>
-          </Row>
+          </Row> */}
 
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skills </strong> and <strong className="purple">Tools</strong>
+          A snapshot of some of the <strong className="purple">Skills </strong> and <strong className="purple">Tools</strong> that I use
         </h1>
+        <h5>I'd love to talk more about what I can do and how I can grow</h5>
 
         <Techstack />
 

@@ -23,7 +23,7 @@ import {
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px"}}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px", paddingTop: "50px"}}>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
