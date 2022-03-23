@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import aboutImg from "../../Assets/about-lou-modified.png";
 
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={12}
+            md={7}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -26,13 +26,13 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          {/* <Col
+          <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col> */}
+            <img src={aboutImg} alt="about" className="img-fluid" />
+          </Col>
           <Row className="blockquote">
             <Col md={12}>
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>WHAT I <strong className="purple">DO</strong></h1>
