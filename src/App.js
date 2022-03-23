@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Modal from "./components/Modal";
 import {
   BrowserRouter as Router,
   Route,
@@ -38,8 +39,8 @@ function App() {
           <Route path="/project" exact element={<Projects />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/resume" exact element={<Resume />} />
-          
-          <Route path="*" element={<Home />} />
+          <Route path="/info"  element={<Modal />} />
+          {/* <Route path="*" element={<Home />} /> */}
         </Routes>
         <Footer />
       </div>
