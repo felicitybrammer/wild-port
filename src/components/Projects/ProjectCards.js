@@ -4,14 +4,17 @@ import Button from "react-bootstrap/Button";
 import Modal from "../Modal";
 
 
+
 function ProjectCards(props) {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentProject, setCurrentProject] = useState();
-  const toggleModal = (project, key) => {
+ 
+  const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
-    setCurrentProject({  });
+    
   };
+
+  
 
   return (
     <div>
@@ -25,8 +28,8 @@ function ProjectCards(props) {
           <Card.Text  style={{ textAlign: "justify" }}>
             {props.description} 
           </Card.Text>
-          <Button variant="primary" href={props.link} target="_blank">
-            {"GitHub"}
+          <Button variant="primary" href="{prop.link}" target="_blank" >
+            {"More Info"}
           </Button>
           <Button variant="primary" href={props.live} target="_blank">
             {"Live Demo"}

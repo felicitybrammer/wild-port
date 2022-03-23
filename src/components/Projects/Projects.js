@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
 import back from "../../Assets/portfolio-item-images/Back-tech.png"
 import creature from "../../Assets/portfolio-item-images/project-okcreature.jpeg"
 import java from "../../Assets/portfolio-item-images/java-tech.png"
 import train from "../../Assets/portfolio-item-images/Song Detail List.png"
 import book from "../../Assets/portfolio-item-images/reading-nook.png"
 import budget from "../../Assets/portfolio-item-images/budget-tracker.png"
-
+import ranter from "../../Assets/portfolio-item-images/Ranter.png"
 
 
 function Projects() {
@@ -26,16 +27,16 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={creature}
-              key="creature"
+              
               title="OkCreature"
               subtitle="A personalized pet-matching app"
-              description="A MERN stack, GraphQL API where users can match with pets up for adoption. Built with Apollo Server, with a React front end, MongoDB database, and Node.js/ Express.js server. Click image for more info.."
-              longDesc="A personalized matching app for pets and potential adopters. Users can take a quiz to match them with pets from the database based on lifestyle, housefold, preferences or ability to provide care."
-              link="https://github.com/felicitybrammer/pet-matcher"
+              description="A MERN stack, GraphQL API where users can match with pets up for adoption. Built with Apollo Server, with a React front end, MongoDB database, and Node.js/ Express.js server."
+              longDesc="A personalized matching app for pets and potential adopters. Users can take a quiz to match them with pets from the database based on lifestyle, household, preferences or ability to provide care."
+              link="https://felicitybrammer.github.io/portfolio-item-okc.html"
               live="https://okcreature.herokuapp.com"
               role="One of my best team experiences! We executed a well-planned project using agile methodologies and with frequent communications.My role was to build and test the back-end functionality, to create JWT authentication on the server and client side, and to integrate state management with React hooks."
               tech="Built with: MongoDB, Express, React, Node.js, GraphQL, Apollo, JavaScript, React-Bootstrap"
-              
+              clickforInfo="https://felicitybrammer.github.io/portfolio-item-okc.html"
             />
           </Col>
 
@@ -44,7 +45,7 @@ function Projects() {
               imgPath={back}
               
               title="Back To The Tech"
-              description=""
+              description="A tech news RESTful API built with MySQL, JavaScript and Handlebars.js as a templating engine. Users can log in, post, comments and vote on others' posts."
               link=""
             />
           </Col>
@@ -91,11 +92,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={budget}
+              imgPath={ranter}
               
-              title="My Finance Budget Tracker"
-              description="A progressive web application that allows for offline access and functionality"
+              title="Ranter"
+              description="A full-stack social media API built using a SQL database and following the Model-View-Controller paradigm. Ranter allows you to create a user profile, to follow other users, to add posts and comments, and to like others' posts and comments too."
               link=""
+              live=""
             />
           </Col>
 
