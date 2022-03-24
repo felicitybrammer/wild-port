@@ -107,7 +107,7 @@ function Projects() {
           </Col>
 
           
-{/* 
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={budget}
@@ -116,7 +116,7 @@ function Projects() {
               description="A progressive web application that allows for offline access and functionality"
               link=""
             />
-          </Col> */}
+          </Col>
 
         </Row>
       </Container>
