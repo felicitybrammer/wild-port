@@ -31,10 +31,11 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px", fontStyle: "italic" }}
             className="about-img"
           >
-            <img src={aboutImg} alt="about" className="img-fluid" />
-            <p className="purple italic" >Yes, I'm holding a python here. </p>
+            <img src={aboutImg} alt="about" className="img-fluid"
+            style={{ border: "2.2px solid rgba(197, 115, 230, 0.883)", borderRadius: "50%", }} />
+            <p className="italic" >Yes, I'm holding a <span className="purple">python</span> here. </p>
             {/* <p>His name is Lou.</p> */}
-           <p className="purple ">I've worked mostly with JavaScript frameworks so far, but I'm always learning. I'm currently developing my skills in Java, to round out my back-end experience.</p>
+           <p className="italic">I've worked mostly with <span className="purple">JavaScript</span> frameworks so far, but I'm always <span className="purple">learning.</span> I'm currently developing my skills in <span className="purple">Java</span> to round out my back-end experience.</p>
           </Col>
           {/* <Row className="blockquote">
             <Col md={12}>
