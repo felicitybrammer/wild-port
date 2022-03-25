@@ -53,53 +53,53 @@ function Home() {
           <h3>felicitybrammer@gmail.com</h3>
         </Col>
       </Row> */}
-      
+
       <Row>
-      <Col md={12} className="home-about-social">
+        <Col md={12} className="home-about-social">
           <h1><span className="purple">CONNECT</span> WITH ME</h1>
           <h3>felicitybrammer@gmail.com</h3>
         </Col>
-          <Col md={12} className="home-about-social">
-            
-            {/* <h2>OR FIND ME ON</h2> */}
-            {/* <p>
+        <Col md={12} className="home-about-social">
+
+          {/* <h2>OR FIND ME ON</h2> */}
+          {/* <p>
               Feel free to <span className="purple">connect </span>with me
             </p> */}
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/felicitybrammer"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/felicitybrammer"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/wild_as/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/felicitybrammer"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/felicitybrammer"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/wild_as/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
     </section>
   );
 }

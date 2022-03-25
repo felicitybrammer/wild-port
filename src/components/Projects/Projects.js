@@ -108,15 +108,6 @@ function Projects() {
 
           
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={budget}
-              
-              title="My Finance Budget Tracker"
-              description="A progressive web application that allows for offline access and functionality"
-              link=""
-            />
-          </Col>
 
         </Row>
       </Container>
