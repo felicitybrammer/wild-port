@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
-import "./App.css";
+// import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
           <Route path="/project" exact element={<Projects />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/resume" exact element={<Resume />} />
-          {/* <Route path="*" element={<Home />} /> */}
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </div>
