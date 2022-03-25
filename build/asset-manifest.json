@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e3bc07d.css",
-    "main.js": "/static/js/main.d6c0c9e5.js",
+    "main.css": "/static/css/main.1088ba97.css",
+    "main.js": "/static/js/main.55053708.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/about-lou-modified.png": "/static/media/about-lou-modified.443274c0829f2e5fac34.png",
@@ -18,13 +18,13 @@
     "static/media/note-taker.png": "/static/media/note-taker.9b565ae4c1b00b697110.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.3e3bc07d.css.map": "/static/css/main.3e3bc07d.css.map",
-    "main.d6c0c9e5.js.map": "/static/js/main.d6c0c9e5.js.map",
+    "main.1088ba97.css.map": "/static/css/main.1088ba97.css.map",
+    "main.55053708.js.map": "/static/js/main.55053708.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e3bc07d.css",
-    "static/js/main.d6c0c9e5.js"
+    "static/css/main.1088ba97.css",
+    "static/js/main.55053708.js"
   ]
 }
