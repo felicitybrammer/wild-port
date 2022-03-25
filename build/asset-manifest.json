@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e3bc07d.css",
+    "main.js": "/static/js/main.d6c0c9e5.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about-lou-modified.png": "/static/media/about-lou-modified.443274c0829f2e5fac34.png",
+    "static/media/headshot-bricks.png": "/static/media/headshot-bricks.fe077eb41a10ca17a25f.png",
+    "static/media/Song Detail List.png": "/static/media/Song Detail List.71cf331fc5db8e80ab5d.png",
+    "static/media/reading-nook.png": "/static/media/reading-nook.e9ecaa854ba6fc0dc16c.png",
+    "static/media/Tech Resume 2022.pdf": "/static/media/Tech Resume 2022.5201f6909f80cf5b2cec.pdf",
+    "static/media/Back-tech.png": "/static/media/Back-tech.a2f315c7774f0d95ecb6.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.54bff00749f884b097a8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Ranter.png": "/static/media/Ranter.468daf25a592b7aa4d5a.png",
+    "static/media/java-tech.png": "/static/media/java-tech.69decaf1636f2a4cf214.png",
+    "static/media/project-okcreature.jpeg": "/static/media/project-okcreature.19bc069fc41713e49415.jpeg",
+    "static/media/note-taker.png": "/static/media/note-taker.9b565ae4c1b00b697110.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.3e3bc07d.css.map": "/static/css/main.3e3bc07d.css.map",
+    "main.d6c0c9e5.js.map": "/static/js/main.d6c0c9e5.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e3bc07d.css",
+    "static/js/main.d6c0c9e5.js"
+  ]
+}
