@@ -9,7 +9,7 @@ import java from "../../Assets/portfolio-item-images/java-tech.png"
 import train from "../../Assets/portfolio-item-images/Song Detail List.png"
 import book from "../../Assets/portfolio-item-images/reading-nook.png"
 import budget from "../../Assets/portfolio-item-images/budget-tracker.png"
-import ranter from "../../Assets/portfolio-item-images/Ranter.png"
+import social from "../../Assets/portfolio-item-images/social-feed-small.png"
 import note from "../../Assets/portfolio-item-images/note-taker.png"
 
 
@@ -39,6 +39,24 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={social}
+              title="My Social!"
+              description="A full-stack social media API built using SQL and following the Model-View-Controller paradigm. You can create a user profile, follow other users, add posts and comments, and like others' posts and comments."
+              link="https://github.com/felicitybrammer/my-social"
+              live="https://polar-sands-74505.herokuapp.com/login"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={java}
+              title="Tech News Java API"
+              description="A full-stack tech news app backed by a server-side Java Spring Boot API. This is a refactor of Back to The Tech, which is backed by a server-side Express.js API."
+              link="https://github.com/felicitybrammer/tech-news-java-api"
+              live="https://cc-java-api-technews.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={back}
               title="Back To The Tech"
               description="A tech news RESTful API built with MySQL, JavaScript and Handlebars.js as a templating engine. Users can log in, post, comments and vote on others' posts."
@@ -49,11 +67,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={java}
-              title="Tech News Java API"
-              description="A full-stack tech news app backed by a server-side Java Spring Boot API. This is a refactor of Back to The Tech, which is backed by a server-side Express.js API."
-              link="https://github.com/felicitybrammer/tech-news-java-api"
-              live="https://cc-java-api-technews.herokuapp.com/"
+              imgPath={book}
+              title="Reading Nook"
+              description="A book search API where users can save and retrieve favourite titles. Built with Apollo Server, with a React front end, MongoDB database, and Node.js/Express.js server."
+              link="https://github.com/felicitybrammer/reading-nook"
+              live="https://peaceful-tor-40781.herokuapp.com/"
             />
           </Col>
 
@@ -67,15 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={book}
-              title="Reading Nook"
-              description="A book search API where users can save and retrieve favourite titles. Built with Apollo Server, with a React front end, MongoDB database, and Node.js/Express.js server."
-              link="https://github.com/felicitybrammer/reading-nook"
-              live="https://peaceful-tor-40781.herokuapp.com/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -96,15 +106,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ranter}
-              title="Ranter"
-              description="A full-stack social media API built using a SQL database and following the Model-View-Controller paradigm. Ranter allows you to create a user profile, to follow other users, to add posts and comments, and to like others' posts and comments too."
-              link="https://github.com/felicitybrammer/Ranter"
-              live="https://ranter2-0.herokuapp.com/login"
-            />
-          </Col>
+          
 
           
 
