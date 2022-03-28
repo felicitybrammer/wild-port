@@ -10,6 +10,6 @@ https://felicitybrammer.github.io/wild-port/
 * JavaScript
 * Bootstrap
 
-[!Screenshot](./src/Assets/Screen%20Shot%202022-03-25%20at%2018.12.30.png)
+![Screenshot](./src/Assets/Screen%20Shot%202022-03-25%20at%2018.12.30.png)
 
 
