@@ -61,7 +61,7 @@ function Projects() {
               title="Back To The Tech"
               description="A tech news RESTful API built with MySQL, JavaScript and Handlebars.js as a templating engine. Users can log in, post, comments and vote on others' posts."
               link="https://github.com/felicitybrammer/back-to-the-tech"
-              live=""
+              live="https://mighty-taiga-78553.herokuapp.com/"
             />
           </Col>
 
