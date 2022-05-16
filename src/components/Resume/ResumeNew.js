@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Tech Resume 2022 A.pdf";
+import pdf from "../../Assets/Tech Resume 2022 C.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://raw.githubusercontent.com/felicitybrammer/wild-port/main/src/Assets/Tech%20Resume%202022%20A.pdf";
+const resumeLink = "https://raw.githubusercontent.com/felicitybrammer/wild-port/main/src/Assets/Tech%20Resume%202022%20C.pdf";
 
 
 function ResumeNew() {
