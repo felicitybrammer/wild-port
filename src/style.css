@@ -460,6 +460,7 @@ button:focus {
   /* border: 2px solid rgba(212, 98, 243);
   border-radius: 50px;
   margin: 10px; */
+  display: flex;
 }
 
 .project-card-view {
@@ -472,6 +473,8 @@ button:focus {
   height: 100% !important;
   border: 2px solid rgba(212, 98, 243)!important;
   border-radius: 50px;
+  display: flex;
+  
   
 }
 .project-card-view:hover {

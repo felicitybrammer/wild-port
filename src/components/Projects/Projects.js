@@ -24,8 +24,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Row style={{ justifyContent: "center", paddingBottom: "10px", display: "flex" }}>
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={creature}
               title="OkCreature"
@@ -37,7 +37,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={social}
               title="My Social!"
@@ -46,7 +46,7 @@ function Projects() {
               live="https://polar-sands-74505.herokuapp.com/login"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={java}
               title="Tech News Java API"
@@ -55,7 +55,7 @@ function Projects() {
               live="https://cc-java-api-technews.herokuapp.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={back}
               title="Back To The Tech"
@@ -65,7 +65,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={book}
               title="Reading Nook"
@@ -75,7 +75,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={train}
               title="Train To The Beat"
@@ -87,7 +87,7 @@ function Projects() {
 
           
 
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={note}
               title="Never Forget! Note Taker"
@@ -96,7 +96,7 @@ function Projects() {
               live="https://never-forget-note-taker.herokuapp.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={budget}
               title="My Finance Budget Tracker"
