@@ -9,6 +9,7 @@ import {
   DiGit,
   DiJava,
   DiMysql,
+  DiBootstrap
 
 } from "react-icons/di";
 import {
@@ -58,9 +59,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
-      </Col>    */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>   
 
     </Row>
   );

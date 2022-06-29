@@ -5,6 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import aboutImg from "../../Assets/about-lou-modified.png";
+import Learnstack from "./Learnstack";
 
 
 function About() {
@@ -67,6 +68,8 @@ function About() {
 
         <Techstack />
 
+        <h1 className="project-heading">Here's what I'm currently <strong className="purple">learning</strong></h1>
+        <Learnstack />
         <Github />
       </Container>
     </Container>
