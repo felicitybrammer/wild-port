@@ -10,7 +10,8 @@ import {
   
   SiSpringboot,
   SiTypescript,
-  SiCsharp
+  SiCsharp,
+  SiDotnet
 } from "react-icons/si";
 
 
@@ -32,9 +33,9 @@ function Learnstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
       
 
     </Row>
