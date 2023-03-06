@@ -33,7 +33,7 @@ function Projects() {
               description="A MERN stack, GraphQL API where users can match with pets up for adoption. Built with Apollo Server, with a React front end, MongoDB database, and Node.js/ Express.js server."
               link="https://github.com/felicitybrammer/pet-matcher"
               live="https://okcreature.herokuapp.com"
-              
+
             />
           </Col>
 
@@ -85,7 +85,7 @@ function Projects() {
             />
           </Col>
 
-          
+
 
           <Col sm={12} md={6} lg={4} className="project-card">
             <ProjectCard
@@ -106,9 +106,9 @@ function Projects() {
             />
           </Col>
 
-          
 
-          
+
+
 
 
         </Row>

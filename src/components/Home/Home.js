@@ -20,9 +20,6 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                {/* <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span> */}
               </h1>
 
               <h1 className="heading-name">
@@ -46,13 +43,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      {/* <Home2 /> */}
-      {/* <Row>
-        <Col md={12} className="home-about-social">
-          <h1><span className="purple">CONNECT</span> WITH ME</h1>
-          <h3>felicitybrammer@gmail.com</h3>
-        </Col>
-      </Row> */}
+
 
       <Row>
         <Col md={12} className="home-about-social">
@@ -60,11 +51,6 @@ function Home() {
           <h3>felicitybrammer@gmail.com</h3>
         </Col>
         <Col md={12} className="home-about-social">
-
-          {/* <h2>OR FIND ME ON</h2> */}
-          {/* <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p> */}
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a

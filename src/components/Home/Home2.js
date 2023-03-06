@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,7 +18,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 
+              something, I think…
               <br />
               <br />I am fluent in classics like
               <i>
@@ -74,7 +73,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/felicitybrammer"
